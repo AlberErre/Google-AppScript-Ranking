@@ -143,7 +143,7 @@ function RankingNewsControl() {
             "<p style='margin-left: 25px;'><strong>List of keywords:</strong></p>" +
                top_100_keywordMatrix +
                 "<p></p><p></p>" +
-                  "<p><i>Optimanova's Semrush Auto-Rankings tool</i></p>";
+                  "<p><i>Semrush Auto-Rankings tool</i></p>";
         
         SendEmail(email_addresses, email_subject, email_content);
       } 
@@ -157,7 +157,7 @@ function RankingNewsControl() {
             "<p style='margin-left: 25px;'><strong>List of keywords:</strong></p>" +
                top_10_keywordMatrix +
                 "<p></p><p></p>" +
-                  "<p><i>Optimanova's Semrush Auto-Rankings tool</i></p>";
+                  "<p><i>Semrush Auto-Rankings tool</i></p>";
         
         SendEmail(email_addresses, email_subject, email_content);
       } 
@@ -171,7 +171,8 @@ function RankingNewsControl() {
             "<p style='margin-left: 25px;'><strong>List of keywords:</strong></p>" +
               top_10Movements_keywordMatrix +
                 "<p></p><p></p>" +
-                  "<p><i>Optimanova's Semrush Auto-Rankings tool</i></p>";
+                  "<p><i>
+        's Semrush Auto-Rankings tool</i></p>";
         
         SendEmail(email_addresses, email_subject, email_content);
       }
@@ -186,7 +187,7 @@ function RankingNewsControl() {
 function SendEmail(email_to, email_subject, email_content) {
   
   MailApp.sendEmail({
-    name: "Optimanova Semrush auto-ranking",
+    name: "Semrush auto-ranking",
     to: email_to.join(","),              
     subject: email_subject,
     htmlBody: email_content 
