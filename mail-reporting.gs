@@ -171,8 +171,7 @@ function RankingNewsControl() {
             "<p style='margin-left: 25px;'><strong>List of keywords:</strong></p>" +
               top_10Movements_keywordMatrix +
                 "<p></p><p></p>" +
-                  "<p><i>
-        's Semrush Auto-Rankings tool</i></p>";
+                  "<p><i>Semrush Auto-Rankings tool</i></p>";
         
         SendEmail(email_addresses, email_subject, email_content);
       }
