@@ -9,17 +9,11 @@ function onOpen() {
   var ui = SpreadsheetApp.getUi();
   // Or DocumentApp or FormApp.
   ui.createMenu('Manual JSON Download')
-      .addItem('MYKITA_DE', 'MYKITA_DE_MissingJSON')
+      .addItem('Company_1', 'Company_1_MissingJSON')
       .addSeparator()
-      .addItem('MYKITA_UK', 'MYKITA_UK_MissingJSON')
+      .addItem('Company_2', 'Company_2_MissingJSON')
       .addSeparator()
-      .addItem('MYKITA_US', 'MYKITA_US_MissingJSON')
-      .addSeparator()
-      .addItem('GGB_EN', 'GGB_EN_MissingJSON')
-      .addSeparator()
-      .addItem('GGB_DE', 'GGB_DE_MissingJSON')
-      .addSeparator()
-      .addItem('GGB_FR', 'GGB_FR_MissingJSON')
+      .addItem('Company_3', 'Company_3_MissingJSON')
       .addSeparator()
       .addToUi();
    ui.createMenu('Refresh URLs')
