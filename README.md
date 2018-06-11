@@ -1,2 +1,2 @@
-# Google-AppScript-AutomatedRankingExtraction
-Automation tool based on Google AppScript API - get latest keyword rankings 
+# Google-AppScript-Ranking
+Automation tool based on Google AppScript API - This tool retrieve keyword ranking provided by SemRush
